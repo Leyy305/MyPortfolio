@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --color-bg: #f4f4f4; /* Light background */
-    --color-text: #333; /* Dark text */
-    --color-primary: #3498db; /* Primary color */
-    --color-secondary: #2ecc71; /* Secondary color */
-    --color-tertiary: #e74c3c; /* Tertiary color */
+    --color-bg: #f4f4f4; 
+    --color-text: #333; 
+    --color-primary: #3498db; 
+    --color-secondary: #2ecc71; 
+    --color-tertiary: #e74c3c; 
     --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
 }
 
 [data-theme="dark"] {
-    --color-bg: #222; /* Dark background */
-    --color-text: #f4f4f4; /* Light text */
-    --color-primary: #3498db; /* Primary color */
-    --color-secondary: #2ecc71; /* Secondary color */
-    --color-tertiary: #e74c3c; /* Tertiary color */
-    --shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Adjust shadow */
+    --color-bg: #222; 
+    --color-text: #f4f4f4; 
+    --color-primary: #3498db; 
+    --color-secondary: #2ecc71; 
+    --color-tertiary: #e74c3c; 
+    --shadow: 0 4px 10px rgba(255, 255, 255, 0.1); 
 }
 
 * {
@@ -346,4 +346,10 @@ footer {
         object-fit: cover;
         margin-top: 20px; 
     }    
+   
+body {
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
 }
